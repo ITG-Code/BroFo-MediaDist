@@ -45,3 +45,9 @@ Mediadistributören AB har insett behovet av ett datoriserat informationssystem 
 När detta är klart så skapar du en webbplats för Mediadistributören AB. Via denna ska tidningsbuden kunna hämta aktuella listor och se sina lönespecifikationer. Man ska kunna teckna och avbryta prenumerationer via webbsidan. Vidare så ska man kunna anmäla utebliven tidning.
 
 Du skapar det hela med Java Enterprise.
+
+
+
+
+## Authors
+Hannes "Brolaugh" Kindströmmer
