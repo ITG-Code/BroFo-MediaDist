@@ -30,7 +30,6 @@ Mediadistributören AB har insett behovet av ett datoriserat informationssystem 
 * Kör lite frågor mot databasen, som till exempel utdraget nedan.
 
 ```
-
 +-------------------+-----------------+------+----------+
 | utdelningsadress  | abbonent        | tidn | distrikt |
 +-------------------+-----------------+------+----------+
@@ -41,7 +40,6 @@ Mediadistributören AB har insett behovet av ett datoriserat informationssystem 
 | Sveavägen 11      | Enoksson Alf    | SVD  | 1:1:Hjo  |
 | Sveavägen 7       | Larsson Anna    | GP   | 1:1:Hjo  |
 +-------------------+-----------------+------+----------+
-
 ```
 
 När detta är klart så skapar du en webbplats för Mediadistributören AB. Via denna ska tidningsbuden kunna hämta aktuella listor och se sina lönespecifikationer. Man ska kunna teckna och avbryta prenumerationer via webbsidan. Vidare så ska man kunna anmäla utebliven tidning.
