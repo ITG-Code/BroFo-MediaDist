@@ -50,4 +50,8 @@ Du skapar det hela med Java Enterprise.
 
 
 ## Authors
-Hannes "Brolaugh" Kindströmmer
+Hannes "@Brolaugh" Kindströmmer
+
+
+## License
+[Mozilla Public License, version 2.0](LICENSE)
