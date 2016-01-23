@@ -22,7 +22,8 @@ Mediadistributören AB har insett behovet av ett datoriserat informationssystem 
 * Man måste också ha koll på hur många prenumeranter var och en av tidningsutgivarna har, för att kunna kontrollera fakturorna mot tidningsutgivarna. 
 * Man vill också kunna dra ut olika statitiska uppgifter ur systemet. 
 * Dessa uppgifter ska ligga till grund för olika ekonomiska och strategiska beslut i företaget.
-* Arbetsgång
+ 
+###Arbetsgång
 * Börja med att noga gå igenom syfte och mål med databasen. Utifrån syfte och mål konstruerar du en datamodell.
 * Skapa databasen i MySQL
 * Lägg in lite data i databasen.
