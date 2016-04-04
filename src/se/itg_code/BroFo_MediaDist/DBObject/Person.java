@@ -18,7 +18,7 @@ abstract class Person {
         this.lastName = lastName;
 
     }
-    private getSecondaryNamesFromDB(){
+    private void getSecondaryNamesFromDB(){
 
     }
 
