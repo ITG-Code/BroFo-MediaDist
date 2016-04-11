@@ -3,7 +3,7 @@ package se.itg_code.BroFo_MediaDist.DBObject;
 /**
  * Created by hannes.kindstrommer on 2016-04-04.
  */
-public class District {
+public class District extends DBEntity{
     private int id;
     private District parent;
     private String name;
@@ -30,5 +30,10 @@ public class District {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    void update() {
+
     }
 }

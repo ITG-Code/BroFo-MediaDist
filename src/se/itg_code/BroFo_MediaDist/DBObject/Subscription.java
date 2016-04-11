@@ -1,6 +1,6 @@
 package se.itg_code.BroFo_MediaDist.DBObject;
 
-public class Subscription {
+public class Subscription extends DBEntity{
     int id;
     PersonAdress payer;
     PersonAdress delivery;
@@ -24,5 +24,10 @@ public class Subscription {
 
     public PersonAdress getDelivery() {
         return delivery;
+    }
+
+    @Override
+    void update() {
+
     }
 }

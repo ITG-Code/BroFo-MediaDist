@@ -5,7 +5,7 @@ import java.sql.Date;
 /**
  * Created by hannes.kindstrommer on 2016-04-04.
  */
-public class Item {
+public class Item extends DBEntity{
     private int id;
     private String name;
     private Publisher publisher;
@@ -37,5 +37,10 @@ public class Item {
 
     public Date getPublishing_date() {
         return publishing_date;
+    }
+
+    @Override
+    void update() {
+
     }
 }

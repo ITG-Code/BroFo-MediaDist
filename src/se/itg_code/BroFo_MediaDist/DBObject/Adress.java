@@ -1,6 +1,6 @@
 package se.itg_code.BroFo_MediaDist.DBObject;
 
-public class Adress {
+public class Adress extends DBEntity{
     private int id;
     private District district;
     private String street_nr;
@@ -14,5 +14,10 @@ public class Adress {
         this.id = id;
         this.district = district;
         this.street_nr = Integer.toString(street_nr);
+    }
+
+    @Override
+    void update() {
+
     }
 }

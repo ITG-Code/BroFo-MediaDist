@@ -3,9 +3,7 @@ package se.itg_code.BroFo_MediaDist.Database;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
-/**
- * Created by hannes.kindstrommer on 2016-04-01.
- */
+
 public class DBConnector {
     public static Connection getConnection(String host, String database, String user, String password){
         Connection dbc = null;

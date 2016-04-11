@@ -3,7 +3,7 @@ package se.itg_code.BroFo_MediaDist.DBObject;
 /**
  * Created by hannes.kindstrommer on 2016-04-04.
  */
-public class PersonAdress {
+public class PersonAdress extends DBEntity{
     private int id;
     private Person person;
     private Adress adress;
@@ -30,5 +30,10 @@ public class PersonAdress {
 
     public Adress getAdress() {
         return adress;
+    }
+
+    @Override
+    void update() {
+
     }
 }

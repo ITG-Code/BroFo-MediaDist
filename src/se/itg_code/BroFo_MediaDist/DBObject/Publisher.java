@@ -3,7 +3,7 @@ package se.itg_code.BroFo_MediaDist.DBObject;
 /**
  * Created by hannes.kindstrommer on 2016-04-04.
  */
-public class Publisher {
+public class Publisher extends DBEntity{
     private int id;
     private String name;
     public Publisher(int id, String name){
@@ -20,5 +20,10 @@ public class Publisher {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    void update() {
+
     }
 }
